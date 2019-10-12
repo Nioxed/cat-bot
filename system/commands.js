@@ -1,0 +1,9 @@
+class Command {
+
+    constructor(trigger){
+
+        
+
+    }
+
+}
