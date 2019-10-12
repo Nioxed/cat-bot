@@ -23,14 +23,10 @@ class ExampleAddon{
         client.on('message', message => {
 
             let scfg = this.configs.configs[message.guild.id];
-            
-            console.log(message.content);
-            console.log(scfg);
-
             if(message.content.startsWith(scfg.get('prefix') + "fix")){
 
                 this.fetchUserData(message.author, (data)=>{
-                    console.log(data)
+                    message.channel.send('```' + data.store + '```')
                 })
             }
 
