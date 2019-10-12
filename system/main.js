@@ -37,8 +37,6 @@ class Sylver extends Discord.Client {
         const origin = caller();
 
         const mes = time.cyan + ' ' + type.cyan + ' ' +  origin.gray + ' ' + message.cyan
-        process.stdout.write(mes + '\n');
-        fs.writeFile("latest.log", mes, (error) => {});
         console.log(mes);
 
     };
@@ -50,8 +48,6 @@ class Sylver extends Discord.Client {
         const origin = caller();
 
         const mes = time.cyan + ' ' + type.white + ' ' +  origin.gray + ' ' + message.white
-        process.stdout.write(mes + '\n');
-        fs.writeFile("latest.log", mes, (error) => {});
         console.log(mes);
 
 
@@ -64,8 +60,6 @@ class Sylver extends Discord.Client {
         const origin = caller();
 
         const mes = time.cyan + ' ' + type.yellow + ' ' +  origin.gray + ' ' + message.yellow
-        process.stdout.write(mes + '\n');
-        fs.writeFile("latest.log", mes, (error) => {});
         console.log(mes);
 
 
@@ -78,8 +72,6 @@ class Sylver extends Discord.Client {
         const origin = caller();
 
         const mes = time.cyan + ' ' + type.red + ' ' +  origin.gray + ' ' + message.red
-        process.stdout.write(mes + '\n');
-        fs.writeFile("latest.log", mes, (error) => {});
         console.log(mes);
 
 
