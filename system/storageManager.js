@@ -8,7 +8,7 @@ class Storage extends EventEmitter{
 
         super();
 
-        this.dir    = __dirname + '\\..\\data\\'
+        this.dir    = __dirname + '/../data/'
         this.file   = this.dir + file + '.json';
         this.store  = {};
 
