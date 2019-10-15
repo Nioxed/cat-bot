@@ -37,12 +37,6 @@ class guildSettings{
 
     }
 
-    postInit(){
-
-
-
-    }
-
 
 }
 
