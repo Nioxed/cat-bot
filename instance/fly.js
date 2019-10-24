@@ -41,7 +41,6 @@ class ExampleAddon{
             message.content = message.content.toLowerCase();
 
             if(message.content.startsWith(scfg.get('prefix') + "fly")){
-                client.log('Started fly.')
 
                 message.vars  = message.content.split(' ');
                 message.vars[1] = Number(message.vars[1])
