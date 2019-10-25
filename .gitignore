@@ -89,3 +89,4 @@ typings/
 data/config.json
 data/guilds/
 data/users/
+instance/awooDownload.js
